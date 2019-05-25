@@ -1,0 +1,5 @@
+[
+  { "path": "/multiplications", "server": "http://localhost:8080" },
+  { "path": "/stats", "server": "http://localhost:8082" },
+  { "path": "/leaders", "server": "http://localhost:8082" }
+]

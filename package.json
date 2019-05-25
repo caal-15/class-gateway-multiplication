@@ -1,0 +1,33 @@
+{
+  "name": "class-gateway-multiplication",
+  "version": "0.0.1",
+  "description": "API Gateway for mutltiplication services.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --single-quote --write **/**.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caal-15/class-gateway-multiplication.git"
+  },
+  "keywords": [
+    "API",
+    "Gateway"
+  ],
+  "author": "Carlos Gonzàlez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caal-15/class-gateway-multiplication/issues"
+  },
+  "homepage": "https://github.com/caal-15/class-gateway-multiplication#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1"
+  }
+}
